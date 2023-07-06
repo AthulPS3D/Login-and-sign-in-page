@@ -1,4 +1,4 @@
-# Login-and-sign-in-page
+# Login-and-sign-up-page
 Login Page Description
 The Login Page is a simple and user-friendly web interface that allows users to authenticate and access their accounts. It features a clean and responsive design, making it accessible from various devices. The page includes input fields for username and password, with a "Remember Me" option to conveniently save user credentials. Additionally, there is a "Forgot Password?" link that directs users to the password recovery process. Users who do not have an account can easily navigate to the Signup Page by clicking on the "Sign up" link. The Login Page provides a seamless and secure login experience for users.
 
