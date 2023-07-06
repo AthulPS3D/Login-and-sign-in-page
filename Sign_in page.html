@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      margin-top: 100px;
+      padding: 20px;
+      padding-right: 30px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center; /* Center align the contents */
+    }
+    
+    h2 {
+      text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .button-container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    button {
+      width: 100%;
+      max-width: 200px;
+      padding: 10px;
+      background-color: #af914c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #8e6608;
+    }
+    
+    .gender-container {
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    .gender-container label {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form>
+      <input type="text" placeholder="First name" required>
+      <input type="text" placeholder="Last name" required>
+      <input type="date" placeholder="Date of birth" required>
+      <input type="text" placeholder="Age" required>
+      
+      <div class="gender-container">
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female"> Female
+      </div>
+      
+      <input type="tel" placeholder="Phone number" pattern="[0-9]{10}" required>
+      <input type="email" placeholder="Email address" required>
+      <input type="text" placeholder="Address" required>
+      
+      <select name="state" required>
+        <option value="">Select State</option>
+        <option value="state1">State 1</option>
+        <option value="state2">State 2</option>
+       
+      </select>
+      
+      <select name="city" required>
+        <option value="">Select City</option>
+        <option value="city1">City 1</option>
+        <option value="city2">City 2</option>
+        
+      </select>
+      
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      
+      <div class="button-container">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

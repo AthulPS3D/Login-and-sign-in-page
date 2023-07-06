@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 100px;
+      padding: 20px;
+      padding-right: 30px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    label {
+      display: flex;
+      align-items: center;
+    }
+    
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+    
+    .forgot-password,
+    .signup-link,
+    .about-us-link,
+    .contact-us-link {
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+    .forgot-password a,
+    .signup-link a,
+    .about-us-link a,
+    .contact-us-link a {
+      color: #555;
+      text-decoration: none;
+    }
+    
+    .forgot-password a:hover,
+    .signup-link a:hover,
+    .about-us-link a:hover,
+    .contact-us-link a:hover {
+      text-decoration: underline;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #af914c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 10px; /* Added left margin */
+    }
+    
+    button:hover {
+      background-color: #8e6608;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      
+      <label>
+        <input type="checkbox" name="remember"> Remember me
+      </label>
+      
+      <button type="submit">Login</button>
+    </form>
+    
+    <div class="forgot-password">
+      <a href="forgot-password.html">Forgot Password?</a>
+    </div>
+    
+    <div class="signup-link">
+      Don't have an account? <a href="samplepro1.html">Sign up</a>
+    </div>
+    
+    <div class="about-us-link">
+      <a href="about-us.html">About Us</a>
+    </div>
+    
+    <div class="contact-us-link">
+      <a href="contact-us.html">Contact Us</a>
+    </div>
+  </div>
+</body>
+</html>
